@@ -1,4 +1,4 @@
-### Juju charm for P1930 vBS
+### Juju charm for IEEE P1930 vBS
 
 `git clone https://github.com/kharade-rohan/vBS.git`
 
