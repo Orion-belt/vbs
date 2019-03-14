@@ -1,0 +1,4 @@
+restart:
+  description: Restart vBS process.
+stop:
+  description: Stop  vBS process.

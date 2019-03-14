@@ -1,7 +1,6 @@
 name: vbs
 summary: Virtual base station for IEEE project 1930
-maintainer: 
-  - Kharade Rohan <kharade@eurecom.fr>
+maintainer: Kharade Rohan <kharade@eurecom.fr>
 description: |
   vBS_P1930 instance for WLAN with capwap as SBI and openflow, netconf as NBI to SDN controller
 tags:

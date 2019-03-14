@@ -1,14 +1,15 @@
 options:
-  string-option:
+  capwap_AC_port:
     type: string
-    default: "Default Value"
-    description: "A short description of the configuration option"
-  boolean-option:
-    type: boolean
-    default: False
-    description: "A short description of the configuration option"
-  int-option:
-    type: int
-    default: 9001
-    description: "A short description of the configuration option"
+    default: "1200"
+    description: "A port for capwap AC server"
+  openflow_port:
+    type: string
+    default: "6653"
+    description: "A port for openflow server"
+  netconf_datastore_path:
+    type: string
+    default: "/usr/bin/transAPI/"
+    description: "A path for data modules of Netconf server"
+
 
