@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -eux
+service vbs stop || true
+status-set blocked "vbs software is not running"
