@@ -1,8 +1,8 @@
-name: vBS_P1930
+name: vBS
 summary: <Virtual base station for IEEE project 1930>
 maintainer: kharade <kharade@eurecom.fr>
 description: |
-  <vBS instance for WLAN>
+  <vBS_P1930 instance for WLAN>
 tags:
   # Replace "misc" with one or more whitelisted tags from this list:
   # https://jujucharms.com/docs/stable/authors-charm-metadata
