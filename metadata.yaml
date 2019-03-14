@@ -2,18 +2,10 @@ name: vBS
 summary: <Virtual base station for IEEE project 1930>
 maintainer: kharade <kharade@eurecom.fr>
 description: |
-  <vBS_P1930 instance for WLAN>
+  <vBS_P1930 instance for WLAN with capwap as SBI and openflow, netconf as NBI to SDN controller>
 tags:
   # Replace "misc" with one or more whitelisted tags from this list:
   # https://jujucharms.com/docs/stable/authors-charm-metadata
-  - misc
-subordinate: false
-provides:
-  provides-relation:
-    interface: interface-name
-requires:
-  requires-relation:
-    interface: interface-name
-peers:
-  peer-relation:
-    interface: interface-name
+  - applications
+series:
+  - xenial
