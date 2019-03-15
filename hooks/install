@@ -3,4 +3,6 @@ set -e
 apt-get update
 apt-get install git build-essential
 git clone https://github.com/vollero/openCAPWAP.git
+apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
+apt-get install libnl-genl-3-dev
 status-set maintenance "Fetching and installing openCAPWAP"
