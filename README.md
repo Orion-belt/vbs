@@ -10,14 +10,14 @@ It need to be complianced with IEEE P1930.1 requirement for vBS.
 
       ___________                         ___________
      |Charm      |                       |Charm      |
-     |           |                       |           |
-     |           |                       |           |
+     |           |      (NBI)            |           |
+     |           |  Standard protocol    |           |
      |  SDN CTL  |<--------------------->|    vBS    |
      |           |                       |           |
      |           |                       |           |
      |___________|                       |___________|
-						|
-						|
+						|       (SBI)
+						|  Vendor Protocol
 					    ____|______
 					   |           |
 					   |           |
