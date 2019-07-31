@@ -4,10 +4,10 @@ Charm is targeted to build vBS instance for 802.11 type of base stations.
 It need to be complianced with IEEE P1930.1 requirement for vBS.
 
 `git clone https://github.com/orion-belt/vBS.git` <br/>
-`git clone https://github.com/orion-belt/floodlight-charm.git`
-`juju deploy ./floodlight-controller`
-`juju deploy ./vBS`
-`juju add-relation vBS floodlight-controller
+`git clone https://github.com/orion-belt/floodlight-charm.git` <br/>
+`juju deploy ./floodlight-controller` <br/>
+`juju deploy ./vBS` <br/>
+`juju add-relation vBS floodlight-controller` <br/>
 
 
      ____________                         ___________
